@@ -42,7 +42,7 @@ def full?(board)
   board.all? do |index|
     index == "X" || index == "O"
    end  
-  return false
+  
 end
 
 
@@ -50,7 +50,7 @@ def draw?(board)
   if won?(board) == false && full?(board) == true 
     return true
   end 
-  
+  false
 end
 
 
