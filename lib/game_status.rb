@@ -58,6 +58,6 @@ def over?(board)
   end
   else
     return false 
-  end
+
 end
 
