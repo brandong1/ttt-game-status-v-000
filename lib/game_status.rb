@@ -18,4 +18,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  win_
+  WIN_COMBINATIONS.each
