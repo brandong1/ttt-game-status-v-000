@@ -55,4 +55,3 @@ def over?(board)
 
 end
 
-def
