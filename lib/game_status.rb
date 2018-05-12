@@ -62,7 +62,9 @@ def over?(board)
 end
 
 def winner(board)
-  if full?(board) == "X"
+  if won?(board) == false
+    return nil
+    
     return "X"
   else
     return "O"
